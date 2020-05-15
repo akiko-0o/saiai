@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+@import './common/css/reset.scss';
+html {
+    .index {
+
+        .inner {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        img{
+            max-width: 100%;
+            height: auto;
+            vertical-align: bottom;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            display: inline-block;
+            list-style: outside none none;
+            padding: 0;
+        }
+
+
+
+    }
+}
