@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=base.css.map */
+.inner {
+  max-width: 1025px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  list-style: outside none none;
+  padding: 0;
+}
+/*# sourceMappingURL=base.css.map */
