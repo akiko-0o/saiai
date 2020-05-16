@@ -78,6 +78,13 @@ html .index .bg_img .main_bg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 514px;
+}
+
+html .index .bg_img .sub_bg {
+  width: 100%;
+  height: 540px;
 }
 
 html .index .bg_img .sns_box {
@@ -96,32 +103,42 @@ html .index .bg_img .logo_1 {
 }
 
 html .index .bg_img .logo_1 img {
-  width: 7.7%;
+  width: 7.85%;
 }
 
 html .index .bg_img .logo_2 {
-  text-align: center;
-  padding-top: 60px;
+  position: absolute;
+  margin: -110px 20%;
 }
 
 html .index .bg_img .logo_3 {
   text-align: center;
+  padding-top: 63px;
   padding-bottom: 35px;
 }
 
 html .index .bg_img .logo_4 {
   position: absolute;
-  right: 3%;
-  top: 75%;
+  right: 3.5%;
+  top: -26%;
+}
+
+html .index .bg_img .nav {
+  background-image: url(./common/img/img_menu_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 html .index .bg_img .nav_bg {
   text-align: center;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 html .index .bg_img .credit {
   text-align: center;
+  padding-top: 40px;
   padding-bottom: 22px;
 }
 
