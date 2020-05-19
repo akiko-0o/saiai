@@ -1,25 +1,88 @@
 @charset 'UTF-8';
-@import './common/css/reset.css';
+@import '../common/css/reset.scss';
 
-.body {
-    font-size: 50px;
+html {
     font-family: serif;
-    .inner {
-        max-width: 740px;
-        width: 100%;
-        margin: 0 auto;
-    }
+    background-image: url(../common/img/img_mainBg.jpg);
 
     img{
         max-width: 100%;
         height: auto;
         vertical-align: bottom;
     }
-
+    
     a {
         text-decoration: none;
     }
-}
 
+    li {
+        display: inline-block;
+        list-style: outside none none;
+        padding: 0;
+    }
 
+    .inner-large {
+        max-width: 990px;
+        margin: 0 auto;
+        position: relative;
+        .sns_box {
+            padding-top: 20px;
+            position: absolute;
+        }
+    }
+    .inner {
+        max-width: 740px;
+        margin: 0 auto;
 
+        .comment {
+            padding-top: 30px;
+        }
+        .post {
+            padding-top: 43px;
+            .come {
+                font-size: 17px;
+                line-height: 24px;
+                font-weight: 700;
+            }
+            .person {
+                font-size: 15px;
+                padding: 30px 0;
+                color: #cb4132;
+                font-weight: 400;
+                line-height: 24px;
+                .name {
+                    padding-left: 12px;
+                    font-size: 20px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+
+        .inner-large2 {
+            max-width: 1023px;
+            margin: 0 auto;
+        }
+        .footer {
+            background-image: url(../common/img/img_containerBg.jpg);
+            padding: 35px 0;
+        }
+ 
+         .nav {
+            background-image: url(../common/img/img_menu_bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            li+ li {
+                border-left: 1px solid #fff;
+            }
+        }
+
+        .nav_bg {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+}       
+    

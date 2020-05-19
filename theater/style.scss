@@ -1,0 +1,122 @@
+@charset 'UTF-8';
+@import '../common/css/reset.css';
+
+html {
+    background-image: url(../common/img/img_mainBg.jpg);
+    font-family: serif;
+    .body {
+        margin-bottom: 0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        display: inline-block;
+        list-style: outside none none;
+        padding: 0;
+    }
+
+    .inner-large {
+        max-width: 1024px;
+        margin: 0 auto;
+        position: relative;
+        .sns_box {
+            padding-top: 15px;
+            position: absolute;
+        }
+    }
+    .inner {
+        clear: both;
+        max-width: 760px;
+        margin: 0 auto;
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .title_img {
+        padding-top: 35px;
+        text-align: center;
+    }
+    .theater_img {
+        padding-top: 13px;
+        padding-bottom: 27px;
+    }
+
+    .inner-small {
+        max-width: 545px;
+        margin: 0 auto; 
+    }
+    .liststyle{
+        font-size: 19px;
+        &:before {
+            content:  ""; 
+            width:  13px; 
+            height:  13px; 
+            display:  inline-block;
+            background-color: rgb(197,23,34);
+            position:  relative;
+            top: -1px; 
+        }
+    }
+    th,td {
+        border: solid 2px #990000;
+        padding: 0;
+        font-weight: 700;
+    }
+
+    th {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    td {
+        font-size: 14px;
+        line-height: 39px;
+    }
+     
+    table {
+        border-collapse:  collapse;
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+    }
+    th {
+        background-color: rgb(238,229,228);
+    }
+    .return_top {
+        text-align: right;
+        padding-top: 30px;
+        padding-bottom: 44px;
+        padding-right: 145px;
+    }
+
+    .footer {
+        background-image: url(../common/img/img_containerBg.jpg);
+        padding: 20px 0;
+    }
+
+     .nav {
+        background-image: url(../common/img/img_menu_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        li+ li {
+            border-left: 1px solid #fff;
+        }
+    }
+
+    .nav_bg {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}

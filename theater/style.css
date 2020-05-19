@@ -1,1 +1,133 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url(/Users/akiko/saiai/common/css/reset.css);
+html {
+  background-image: url(../common/img/img_mainBg.jpg);
+  font-family: serif;
+}
+
+html .body {
+  margin-bottom: 0;
+}
+
+html img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+html a {
+  text-decoration: none;
+}
+
+html li {
+  display: inline-block;
+  list-style: outside none none;
+  padding: 0;
+}
+
+html .inner-large {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+html .inner-large .sns_box {
+  padding-top: 15px;
+  position: absolute;
+}
+
+html .inner {
+  clear: both;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+html .inner ul {
+  padding: 0;
+  margin: 0;
+}
+
+html .title_img {
+  padding-top: 35px;
+  text-align: center;
+}
+
+html .theater_img {
+  padding-top: 13px;
+  padding-bottom: 27px;
+}
+
+html .inner-small {
+  max-width: 545px;
+  margin: 0 auto;
+}
+
+html .liststyle {
+  font-size: 19px;
+}
+
+html .liststyle:before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  background-color: #c51722;
+  position: relative;
+  top: -1px;
+}
+
+html th, html td {
+  border: solid 2px #990000;
+  padding: 0;
+  font-weight: 700;
+}
+
+html th {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+html td {
+  font-size: 14px;
+  line-height: 39px;
+}
+
+html table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+}
+
+html th {
+  background-color: #eee5e4;
+}
+
+html .return_top {
+  text-align: right;
+  padding-top: 30px;
+  padding-bottom: 44px;
+  padding-right: 145px;
+}
+
+html .footer {
+  background-image: url(../common/img/img_containerBg.jpg);
+  padding: 20px 0;
+}
+
+html .nav {
+  background-image: url(../common/img/img_menu_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+html .nav li + li {
+  border-left: 1px solid #fff;
+}
+
+html .nav_bg {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
