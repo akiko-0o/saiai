@@ -62,9 +62,13 @@ html {
         }
     }
 
-    .picture ul{
-        display: flex;
-        justify-content: space-between;
+    .picture {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     .return_top {

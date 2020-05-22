@@ -75,6 +75,11 @@ html .story_bottom .float_right li:nth-child(1) {
   padding-bottom: 10px;
 }
 
+html .picture {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 html .picture ul {
   display: -webkit-box;
   display: -ms-flexbox;
